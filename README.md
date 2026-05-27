@@ -52,6 +52,7 @@ This section focuses on planning, research, and basic website development.
 ## Responsive Design
 Breakpoints used:
 -Laptop
+<img width="1455" height="907" alt="image" src="https://github.com/user-attachments/assets/6da21890-87b5-4092-a21e-6c2a2a370c7a" />
 
 ## Testing
 The website was tested on:
