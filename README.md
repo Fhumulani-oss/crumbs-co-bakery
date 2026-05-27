@@ -39,3 +39,29 @@ This section focuses on planning, research, and basic website development.
 -Unsplash (2026)
 -Pexels (2026)
 -W3Schools (2026)
+
+# Part 2- CSS Styling and Responsive Design
+## CSS Features Implemented
+-External stylesheet linked to all pages 
+-CSS reset applied
+-Typography styling
+-Flexbox layout
+-Hover effects
+-Responsive design using media queries
+
+## Responsive Design
+Breakpoints used:
+-Laptop
+
+## Testing
+The website was tested on:
+-Google Chrome
+-Microsoft Edge
+-Mobile view using browser developer tools
+
+## Changelog
+-Improved website styling
+-Added responsive navigation
+-Added Flexbox product layout
+-Added hover effects
+-Improved mobile responsiveness
