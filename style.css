@@ -1,0 +1,153 @@
+/*CSS RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*BODY STYLING*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/*HEADER*/
+header {
+    background-color: #8b4513;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/*NAVIGATION*/
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/*Hover effect*/
+nav a:hover {
+    color: #ffd700;
+}
+
+/*MAIN CONTENT*/
+main {
+    padding: 30px;
+}
+
+/*HEADINGS*/
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color:#8b4513;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+/*IMAGES*/
+img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/*PRODUCTS SECTION*/
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.product {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+
+    /*Shadow efects*/
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/*FORM STYLING*/
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #8b4513;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+/*Button hover*/ 
+button:hover {
+    background-color: #a0522d;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/*RESPONSIVE DESIGN*/
+
+/*Tablet*/
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+    .product-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+/*Mobile*/
+@media (max-width: 480px) {
+    body {
+        font-size: 0.9rem;
+    }
+    header {
+        padding: 15px;
+    }
+    main {
+        padding: 15px;
+    }
+    button {
+        width: 100&
+    }
+}
