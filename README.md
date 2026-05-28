@@ -66,3 +66,8 @@ The website was tested on:
 -Added Flexbox product layout
 -Added hover effects
 -Improved mobile responsiveness
+
+## Updated References
+- W3Schools (2026)
+- Unsplash (2026)
+- Pexels (2026)
