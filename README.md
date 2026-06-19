@@ -67,7 +67,32 @@ The website was tested on:
 -Added hover effects
 -Improved mobile responsiveness
 
-## Updated References
+## References
 - W3Schools (2026)
 - Unsplash (2026)
 - Pexels (2026)
+
+# Part 3- Enhancing Functionality and SEO
+## Features
+-Responsive website design
+-Navigation menu across all pages
+-Product search functionality
+-Product image gallery
+-Fade-in page animations using JavaScript
+-Enquiry form with cost estimation
+-Contact form with submission confirmation
+-SEO meta tags
+-Sitemap.xml for search engine indexing
+-Robots.txt file for crawler instructions
+
+## Testing Conducte
+-Navigation testing; all navigation links were tested and successfully directed users to the correct pages.
+-Product search testing; the search bar was tested using product names and successfully filtered products displayed on the Products page.
+-Enquiry form testing; the enquiry form was tested by entering a quantity value and clicking submit. The estimated cost was displayed correctly.
+-Contact form testing; the contact form was tested by entering information and submitting the form. A confirmation message was displayed.
+-Responsive design testing; the website layout was tested on different screen sizes and remained functional and readble.
+
+## References
+-W3Schools (2026)
+-Unsplash (2026)
+-Pexels (2026)
