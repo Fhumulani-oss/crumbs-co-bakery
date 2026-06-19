@@ -3,7 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <meta names="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Enquiry - Crumbs & Co Bakery</title>
+        <title>Crumbs & Co Bakery | Enquiries</title>
+
+        <meta name="description" content="Request information about custom cakes, orders and bakery products.">
+
+        <meta name="keywords" content="cake enquiries, bakery orders, custom cakes">
         <!--External CSS-->
         <link rel="stylesheet" href="css/style.css">
     </head>
@@ -21,25 +25,50 @@
             </nav>
         </header>
 
-        <main>
+        <main class="fade-in">
             <h2>Make an enquiry</h2>
+        
+            <form id="enquiryForm">
 
-            <form>
-                <label>Name:</label><br>
-                <input type="text" required><br><br>
+                <input type="text"
+                id="name"
+                placeholder="Full Name"
+                required>
 
-                <label>Email:</label><br>
-                <input type="email" required><br><br>
+                <input type="email"
+                id="Email"
+                plaeholder="Email"
+                required>
 
-                <label>Message:</label><br>
-                <textarea rows="5"></textarea><br><br>
+                <input type="tel"
+                id="phone"
+                placeholder="Phone Number"
+                required>
 
-                <button type="submit">Submit</button>
+                <select id="product">
+                    <option value="">Select Product</option>
+                    <option>Cake</option>
+                    <option>Pastries</option>
+                    <option>Bread</option>
+                </select>
+
+                <input type="number"
+                id="quantity"
+                placeholder="quantity">
+
+                <button type="submit">
+                    Submit
+                </button>
+
             </form>
+
+            <p id="result"></p>
         </main>
 
         <footer>
             <p>&copy; 2026 Crumbs & Co Bakery</p>
         </footer>
+
+        <script src="js/script.js"></script>
     </body>
 </html>

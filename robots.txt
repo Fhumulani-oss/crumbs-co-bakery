@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+sitemap: https://www.crumbs-co-bakery.co.za/sitemap.xml
